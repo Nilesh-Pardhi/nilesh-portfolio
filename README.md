@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nilesh Pardhi — Personal Data Analyst Portfolio
 
 A modern, premium, responsive personal portfolio website designed for **Nilesh Pardhi**, an aspiring Data Analyst currently pursuing a B.Tech in Artificial Intelligence & Machine Learning. Built to showcase technical acumen in Python, SQL, Power BI, and business intelligence to recruiters and hiring managers.
@@ -151,3 +152,7 @@ Runs the production server (`server.js`) on `http://localhost:3000` with static 
    git push -u origin main
    ```
 3. Go to **Settings** &rarr; **Pages** &rarr; select `main` branch &rarr; **Save**. Your portfolio will be live worldwide in seconds!
+=======
+# nilesh-portfolio
+Personal portfolio showcasing my Data Analytics projects, technical skills, certifications, and experience in Python, SQL, Excel, and Power BI.
+>>>>>>> 8cf52a3a53238fc22a942e7e175abe9e329dc312
