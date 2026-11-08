@@ -2070,8 +2070,28 @@ button {
 .category-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 14px;
   margin-bottom: 22px;
+}
+
+.category-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.category-badge-count {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-dim);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
 }
 
 .category-icon {
@@ -2092,6 +2112,24 @@ button {
   background: rgba(139, 92, 246, 0.12);
   border-color: rgba(139, 92, 246, 0.45);
   color: #a78bfa;
+}
+
+.category-icon.cyan {
+  background: rgba(56, 189, 248, 0.12);
+  border-color: rgba(56, 189, 248, 0.45);
+  color: #38bdf8;
+}
+
+.category-icon.amber {
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.45);
+  color: #fbbf24;
+}
+
+.category-icon.emerald {
+  background: rgba(34, 197, 94, 0.12);
+  border-color: rgba(34, 197, 94, 0.45);
+  color: #4ade80;
 }
 
 .category-icon svg {

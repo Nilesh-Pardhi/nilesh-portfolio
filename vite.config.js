@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { resolve } from "path";
 import handler from "./api/contact.js";
 
 /**
@@ -29,5 +30,13 @@ export default defineConfig({
   plugins: [resendApiPlugin()],
   server: {
     port: 5173
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(import.meta.dirname, "index.html"),
+        cricketCaseStudy: resolve(import.meta.dirname, "cricket-case-study.html")
+      }
+    }
   }
 });
